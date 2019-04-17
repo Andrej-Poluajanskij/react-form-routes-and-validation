@@ -1,0 +1,22 @@
+html{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg,  #3960ae, #dbe8f1, #a5bdcc, #23a6d5);
+    background-size: 400% 400%;
+    animation: changeBG 18s ease-in-out infinite;
+
+    @keyframes changeBG {
+        0%{ background-position: 0 50%; }
+        50%{ background-position: 100% 50%; }
+        100%{ background-position: 0 50%;}
+    }
+}
+.main-container{
+        margin: 20px auto;
+        max-width: 800px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 5px #304878, -2px 2px 5px #304878;
+        padding: 15px;
+        width: 100%;
+        display: flex;
+}
